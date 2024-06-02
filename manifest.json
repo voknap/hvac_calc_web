@@ -1,11 +1,11 @@
 {
-    "name": "HVAC calc",
-    "short_name": "HVAC calc",
+    "name": "hvac_calc",
+    "short_name": "hvac_calc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "HVAC calculations for engineers",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
