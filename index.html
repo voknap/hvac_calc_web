@@ -52,7 +52,6 @@
       min-height: 100%;
       background-color: #FFFFFF;
       background-size: 100% 100%;
-      clip-path: inset(0 0 100px 0);
     }
 
     .center {
@@ -103,6 +102,13 @@
       bottom: 0;
       right: 0;
     }
+
+    .content {
+      margin-bottom: 100px;
+      /* Отступ сверху */
+      overflow: hidden;
+      /* Скрываем содержимое за пределами области */
+    }
   </style>
   <script id="splash-screen-script">
     function removeSplashFromWeb() {
@@ -115,7 +121,7 @@
 </head>
 
 <body>
-
+  <div class="content"></div>
   <picture id="splash">
     <source
       srcset="splash/img/light-1x.gif 1x, splash/img/light-2x.gif 2x, splash/img/light-3x.gif 3x, splash/img/light-4x.gif 4x"
@@ -132,7 +138,7 @@
     var infolinks_wsid = 0;
   </script>
   <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-
+  </div>
 </body>
 
 </html>
