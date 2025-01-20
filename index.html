@@ -52,6 +52,7 @@
       min-height: 100%;
       background-color: #FFFFFF;
       background-size: 100% 100%;
+      padding-bottom: 100px;
     }
 
     .center {
@@ -102,13 +103,6 @@
       bottom: 0;
       right: 0;
     }
-
-    .content {
-      margin-bottom: 100px;
-      /* Отступ сверху */
-      overflow: hidden;
-      /* Скрываем содержимое за пределами области */
-    }
   </style>
   <script id="splash-screen-script">
     function removeSplashFromWeb() {
@@ -121,24 +115,24 @@
 </head>
 
 <body>
-  <div class="content">
-    <picture id="splash">
-      <source
-        srcset="splash/img/light-1x.gif 1x, splash/img/light-2x.gif 2x, splash/img/light-3x.gif 3x, splash/img/light-4x.gif 4x"
-        media="(prefers-color-scheme: light)">
-      <source
-        srcset="splash/img/dark-1x.gif 1x, splash/img/dark-2x.gif 2x, splash/img/dark-3x.gif 3x, splash/img/dark-4x.gif 4x"
-        media="(prefers-color-scheme: dark)">
-      <img class="center" aria-hidden="true" src="splash/img/light-1x.gif" alt="">
-    </picture>
-    <script src="flutter_bootstrap.js" async=""></script>
 
-    <script type="text/javascript">
-      var infolinks_pid = 3422973;
-      var infolinks_wsid = 0;
-    </script>
-    <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
-  </div>
+  <picture id="splash">
+    <source
+      srcset="splash/img/light-1x.gif 1x, splash/img/light-2x.gif 2x, splash/img/light-3x.gif 3x, splash/img/light-4x.gif 4x"
+      media="(prefers-color-scheme: light)">
+    <source
+      srcset="splash/img/dark-1x.gif 1x, splash/img/dark-2x.gif 2x, splash/img/dark-3x.gif 3x, splash/img/dark-4x.gif 4x"
+      media="(prefers-color-scheme: dark)">
+    <img class="center" aria-hidden="true" src="splash/img/light-1x.gif" alt="">
+  </picture>
+  <script src="flutter_bootstrap.js" async=""></script>
+
+  <script type="text/javascript">
+    var infolinks_pid = 3422973;
+    var infolinks_wsid = 0;
+  </script>
+  <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+
 </body>
 
 </html>
