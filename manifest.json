@@ -1,11 +1,11 @@
 {
-    "name": "hvac_calc",
-    "short_name": "hvac_calc",
+    "name": "Allday HVAC Calc",
+    "short_name": "Allday HVAC Calc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Pipe, Duct and Psychrometric calculations",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
